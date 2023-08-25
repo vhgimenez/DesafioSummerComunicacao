@@ -50,7 +50,10 @@ git clone git@github.com:Summer-Developer-Team/Test-Dev-Jr.git
 ```
 cd Test-Dev-Jr && npm install
 ```
-3. 
+3. Suba a API
+```
+npm rum compose
+```
 
 <hr />
 
