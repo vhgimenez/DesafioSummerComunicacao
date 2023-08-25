@@ -12,7 +12,7 @@ No diretório Frontend ja deixamos pronto o seu `Dockerfile` para buildar sua im
 
 Sabemos que, as vezes, as ideias de layout de Pagina Web pode ser um desafio. Por isso resolvemos disponibilizar algo que esperamos:
 
-![esquema](./img/esquema.png)
+![exemple](.imgs/exemple.png)
 
 Mas ficaremos muito mais contentes se você nos mostrasse a sua propria soluções!!
 
@@ -63,3 +63,5 @@ product/id
 ```
 product/search?q=<str_to_search>
 ```
+
+![banner](.imgs/banner.png)
