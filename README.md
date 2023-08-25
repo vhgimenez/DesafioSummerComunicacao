@@ -1,3 +1,7 @@
+![banner](.imgs/banner.png)
+
+<br />
+
 ## Resumo
 O teste consiste basicamente em fazer uma pagina web (port: 3000) que se comunica com uma API (port: 3001) para consumir os produtos e assim gerar uma pagina para que usuarios possam consultar e adquirir os produtos.
 
@@ -63,5 +67,3 @@ product/id
 ```
 product/search?q=<str_to_search>
 ```
-
-![banner](.imgs/banner.png)
