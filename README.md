@@ -9,7 +9,7 @@ O teste consiste basicamente em criar uma página web (porta: 3000) que se comun
 O uso de frameworks CSS é livre, e também deixamos a critério do desenvolvedor decidir se irá usar `Axios` ou `Fetch`. Será analisada a forma como o desenvolvedor pensa; portanto, adotar as práticas de Clean Code será um diferencial. Como uma empresa que zela por manter códigos organizados e limpos, separamos algumas dicas:
 1. Evitar o uso de `let` ou `var`
 2. Adotar sempre que possível `Arrow Functions`
-3. Functions podem ser usados diversas vezes!
+3. Functions podem ser usadas diversas vezes!
 4. Evitar o uso de `Ifs` e `Elses` (Valorizamos desenvolvedores que têm conhecimento em múltiplas formas de validação)
 
 No diretório Frontend ja deixamos pronto o seu `Dockerfile` para buildar sua imagem e deixamos comentado no `Docker Compose` a criação do container do Front da aplicação.
