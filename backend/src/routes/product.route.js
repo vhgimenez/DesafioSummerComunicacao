@@ -4,7 +4,7 @@ const { getAll, getById, search } = require('../middleware');
 const product = express.Router();
 
 product
-  .route('/search')
+  .route('/search/:name')
   .get(search);
 
 product
