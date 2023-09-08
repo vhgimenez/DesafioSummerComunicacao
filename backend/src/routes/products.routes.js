@@ -21,11 +21,11 @@ routes.get('/:valor', async (req, res) => {
     const { valor } = req.params;
 
     try {
-        const byName = await knex("Products").where({ name: valor }).first();
+        const byName = await knex("Products").where({ name: valor }).select(['name', 'price', 'image']);
 
-        if (byName) {
+        if (byName.length > 0) {
             return res.status(200).json(byName);
-        }
+        } 
 
         const byCategory = await knex("Products").where({ category: valor });
 
